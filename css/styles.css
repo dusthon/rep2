@@ -1,0 +1,108 @@
+/* seleccionar cosas dentro de cosas todos los title.. dentro de div
+div .titleImage{}
+se puede combinar selectores, solo las etiquetas que tengan los titulos
+selector1#selector2.selector3
+*/
+
+body{
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#title {
+  background-color: #ff4c68;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+#cta {
+  padding: 1%;
+  background-color: #ef8172;
+  color: white;
+}
+
+#footer {
+  padding: 4%;
+  text-align: center;
+}
+
+.titleImage {
+  width: 30%;
+  padding-top: 10px;
+}
+
+@media (min-width: 950px) {
+  .titleImage {
+    transform: rotate(25deg);
+    position: absolute;
+    right: 15%;
+    top: 20%;
+  }
+}
+
+.NombrePrin{
+  font-size: 300%
+}
+
+.intro {
+  padding-top: 20%;
+}
+
+.container-fluid {
+  padding: 1% 15% 7%;
+}
+
+.letrasTit {
+  font-size: 200%;
+}
+
+.destaca {
+  padding: 5%;
+  color: #ff4c68;
+}
+
+.iconito {
+  font-size: 3rem;
+  padding-bottom: 1rem;
+  margin: 5%;
+}
+
+.destaca:hover {
+  color: black;
+}
+
+.test-image {
+  width: 40%;
+  border-radius: 100%
+}
+
+.press-logo {
+  width: 20%;
+  margin: 5% 5% 5% 5%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.contactos {
+  padding: 2% 5%;
+}
